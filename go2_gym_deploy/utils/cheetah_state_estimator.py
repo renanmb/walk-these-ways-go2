@@ -9,6 +9,7 @@ from go2_gym_deploy.lcm_types.leg_control_data_lcmt import leg_control_data_lcmt
 from go2_gym_deploy.lcm_types.rc_command_lcmt import rc_command_lcmt
 from go2_gym_deploy.lcm_types.state_estimator_lcmt import state_estimator_lcmt
 # 不调用相机 !!!
+# Not calling the camera!!!
 # from go1_gym_deploy.lcm_types.camera_message_lcmt import camera_message_lcmt
 # from go1_gym_deploy.lcm_types.camera_message_rect_wide import camera_message_rect_wide
 
@@ -318,6 +319,7 @@ class StateEstimator:
         # print(self.right_stick, self.left_stick)
 
 # 是否要删除下面的camera相关函数？
+# Do you want to delete the following camera-related functions?
 # --------------------------------------------------
     # def _camera_cb(self, channel, data):
     #     msg = camera_message_lcmt.decode(data)
